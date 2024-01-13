@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Salsa");
+@import url("https://fonts.googleapis.com/css?family=Anton");
+
+*{
+    margin: 0;
+    /* outline: 0.5px red dashed; */
+    color: #817f7f;
+    box-sizing: border-box;
+    font-size: large;
+    font-family: Lato;
+}
+
+html {
+    background: linear-gradient(rgb(78, 78, 78), black);
+}
+
+.main-header {
+    background-image: url("images/banner test.png");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.425);
+    background-blend-mode: multiply;
+    box-shadow: 0 0 80px #000000;
+}
+
+.main-header li {
+    display: block;
+    text-align: right;
+}
+
+.main-header h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: Anton;
+    color: rgb(252, 252, 252);
+}
+
+.about-image {
+    display: inline;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.main-section p {
+    padding-top: 10px;
+}
+
+.name {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-header {
+    text-align: center;
+    font-size: 2em;
+    padding: .5em 0;
+    color: rgb(163, 19, 19);
+}
+
+.section-description { 
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.information {
+    display: inline;
+    /* background-color: rgb(215, 247, 255); */
+}
+
+.tournament-container {
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.tournament-title {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(81, 161, 253);
+    font-size: 1.2em;
+}
+
+.tournaments {
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.tournament-description {
+    color: #2b2b2b;
+}
+
+.tbtn {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 8px #aaaaaa;
+}
+
+.ludwig {
+    background-image: url("images/Ludwig_Smash_Invitational_2022_allmode.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+}
+
+.frostbite {
+    background-image: url("images/Frostbite.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 220px;
+}
+
+.tbtn:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
