@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Salsa");
 @import url("https://fonts.googleapis.com/css?family=Anton");
 
 *{
@@ -73,7 +72,6 @@ html {
 
 .information {
     display: inline;
-    /* background-color: rgb(215, 247, 255); */
 }
 
 .tournament-container {
